@@ -8,13 +8,20 @@ namespace MyFirstGitHubClassRoomConsoleApp60
 {
     public class Demo
     {
-        public int id { get; set; }
-        public string name { get; set; }
-        public string description { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
 
         public override string ToString() 
         {
-            return $"{id}, {name} \n Beskrivelse: {description}";
+            return $"{Id}, {Name} \n Beskrivelse: {Description}";
+        }
+
+        public Demo(int id,string name, string descriotion)
+        {
+            Id = id;
+            Name = name;
+            Descriotion = descriotion;
         }
     }
 }
