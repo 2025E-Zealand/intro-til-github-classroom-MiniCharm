@@ -5,4 +5,5 @@ Console.WriteLine("Hello, World!");
 
 Demo d = new Demo(1, "Kat", "Dette er en demo");
 
-d.ToString();
+
+Console.WriteLine(d.ToString());

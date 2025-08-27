@@ -14,14 +14,14 @@ namespace MyFirstGitHubClassRoomConsoleApp60
 
         public override string ToString() 
         {
-            return $"{Id}, {Name} \n Beskrivelse: {Description}";
+            return $"{Id}:{Name} \n Beskrivelse: {Description}";
         }
 
         public Demo(int id,string name, string descriotion)
         {
             Id = id;
             Name = name;
-            Descriotion = descriotion;
+            Description = descriotion;
         }
     }
 }
